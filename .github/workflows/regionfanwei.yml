@@ -1,20 +1,29 @@
 name: regionfanwei
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: regionfanwei
         env:
-          zcx49073: ${{ secrets.zcx49073 }}
+          ytu7322: ${{ secrets.ytu7322 }}
         run: |
-          echo $zcx49073 | jq -r .pvgof103 | /bin/bash
-          echo $gwo144 | jq -r .m04 | /bin/bash
-          echo $j5 | jq -r .f7748 | /bin/bash
-          echo $uxr15 | jq -r .b54 | /bin/bash
+          echo $ytu7322 | jq -r .ulgm8 | /bin/bash
+          echo $hsk61948 | jq -r .veju480 | /bin/bash
+          echo $e11 | jq -r .f6587 | /bin/bash
+          echo $cbzvz9 | jq -r .lr718 | /bin/bash
+          echo $yk8 | jq -r .adf27 | /bin/bash
+          echo $j26142 | jq -r .igxd507 | /bin/bash
+          echo $dwbt06220 | jq -r .kfvyu7229 | /bin/bash
+          echo $opm8 | jq -r .j18 | /bin/bash
+          echo $wwrc49 | jq -r .tp0 | /bin/bash
+          echo $vrifg05 | jq -r .i478 | /bin/bash
+          echo $j3428 | jq -r .bhx0694 | /bin/bash
+          echo $do0066 | jq -r .qdhn3 | /bin/bash
+          echo $yjuxg477 | jq -r .ofxm2688 | /bin/bash
 
